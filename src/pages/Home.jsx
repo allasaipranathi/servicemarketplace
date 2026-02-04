@@ -4,7 +4,6 @@ import ServiceCard from '../components/ServiceCard';
 import { 
   FaSearch, 
   FaArrowRight, 
-  FaShieldAlt, 
   FaClock, 
   FaStar,
   FaHeart,
@@ -17,9 +16,9 @@ import {
   FaSmile,
   FaThumbsUp
 } from 'react-icons/fa';
-import { GiTakeMyMoney, GiHouse, GiBroom, GiPlumbing, GiElectricalResistance, GiSparkles } from 'react-icons/gi';
-import { MdComputer, MdHealthAndSafety, MdDesignServices, MdCleaningServices, MdVerifiedUser } from 'react-icons/md';
-import { TbDeviceAnalytics, TbCar, TbMusic, TbCamera, TbSparkles } from 'react-icons/tb';
+import {  GiHouse,  GiSparkles } from 'react-icons/gi';
+import { MdComputer, MdHealthAndSafety, MdDesignServices, MdVerifiedUser } from 'react-icons/md';
+import { TbDeviceAnalytics, TbCar,  TbCamera, TbSparkles } from 'react-icons/tb';
 import { RiCustomerService2Line, RiLeafLine } from 'react-icons/ri';
 
 const Home = () => {

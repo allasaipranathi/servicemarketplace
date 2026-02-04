@@ -12,7 +12,6 @@ import {
   FaClock,
   FaCheckCircle,
   FaTimesCircle,
-  FaUserCircle,
   FaShieldAlt,
   FaCreditCard,
   FaCog,

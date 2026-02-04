@@ -11,10 +11,11 @@ const Footer = () => {
             <h3 className="footer-logo">ServiceHub</h3>
             <p>Book professional services with ease and convenience.</p>
             <div className="social-icons">
-              <a href="#" className="social-icon"><FaFacebook /></a>
-              <a href="#" className="social-icon"><FaTwitter /></a>
-              <a href="#" className="social-icon"><FaInstagram /></a>
-              <a href="#" className="social-icon"><FaLinkedin /></a>
+              <a href="https://facebook.com"
+ className="social-icon"><FaFacebook /></a>
+              <a href="https://twitter.com" className="social-icon"><FaTwitter /></a>
+              <a href="https://instagram.com" className="social-icon"><FaInstagram /></a>
+              <a href="https://linkedin.com" className="social-icon"><FaLinkedin /></a>
             </div>
           </div>
 

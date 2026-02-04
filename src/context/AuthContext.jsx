@@ -1,5 +1,4 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
-import toast from 'react-hot-toast';
 
 const AuthContext = createContext();
 
@@ -13,7 +12,6 @@ export const useAuth = () => {
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // Check for saved user on mount
@@ -21,7 +19,6 @@ export const AuthProvider = ({ children }) => {
     if (savedUser) {
       setUser(JSON.parse(savedUser));
     }
-    setLoading(false);
   }, []);
 
   const login = (userData) => {
